@@ -1,6 +1,5 @@
 package com.example.androidcalculator;
 
-import static java.lang.String.*;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -11,7 +10,6 @@ import net.objecthunter.exp4j.ExpressionBuilder;
 import net.objecthunter.exp4j.function.Function;
 
 import java.math.BigDecimal;
-
 /**
  * MainActivity is the primary activity for the calculator application.
  * It handles the UI interactions and evaluates mathematical expressions.
@@ -187,7 +185,6 @@ public class MainActivity extends AppCompatActivity {
                         }
                     })
                     .build();
-
             double result = exp.evaluate(); // Evaluate the expression
 
             // Use scientific notation for very large or very small numbers, or format otherwise
@@ -201,7 +198,6 @@ public class MainActivity extends AppCompatActivity {
             primaryTextView.setText("Error"); // Display generic error message for other exceptions
         }
     }
-
     /**
      * Formats the result for display, using scientific notation for large/small numbers.
      * @param result The result of the evaluated expression.
