@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         primaryTextView = findViewById(R.id.idTVprimary);
         secondaryTextView = findViewById(R.id.idTVSecondary);
         // Set initial text in TextViews
-        secondaryTextView.setText("CWU ID: 4398xxxx");
-        primaryTextView.setText("Boscoe");
+        secondaryTextView.setText(R.string.cwu_id_4398xxxx);
+        primaryTextView.setText(R.string.boscoe);
         isDefaultTextDisplayed = true; // Indicate default text is displayed
         setupButtons(); // Set up button click listeners
     }
@@ -191,11 +191,11 @@ public class MainActivity extends AppCompatActivity {
             primaryTextView.setText(formatResult(result));
 
         } catch (ArithmeticException e) {
-            primaryTextView.setText("Overflow"); // Display error for overflow
+            primaryTextView.setText(R.string.overflow); // Display error for overflow
         } catch (IllegalArgumentException e) {
             primaryTextView.setText(e.getMessage()); // Display error message for invalid log input
         } catch (Exception e) {
-            primaryTextView.setText("Error"); // Display generic error message for other exceptions
+            primaryTextView.setText(R.string.error); // Display generic error message for other exceptions
         }
     }
     /**

@@ -30,4 +30,8 @@
     <string name="_0">0</string>
     <string name="dot">.</string>
     <string name="div">÷</string>
+    <string name="cwu_id_4398xxxx">CWU ID: 4398xxxx</string>
+    <string name="boscoe">Boscoe</string>
+    <string name="overflow">Overflow</string>
+    <string name="error">Error</string>
 </resources>
