@@ -3,10 +3,11 @@
 </div>
 
 ## Overview
-**csCalculate** is a fully functional calculator app designed for Android devices, offering a smooth user experience with advanced functionality.
+**csCalculate** is a fully functional calculator app designed for Android devices, offering a smooth user experience with both basic and advanced mathematical functions.
 
 ### Key Features
 - **Basic Arithmetic Operations**: Perform addition, subtraction, multiplication, and division.
+- **Advanced Mathematical Functions**: Includes trigonometric functions (`sin`, `cos`, `tan`), logarithms (`log`, `ln`), square roots, powers, and factorials.
 - **Parentheses Support**: Handle complex expressions with ease.
 - **Clear Functions**: Includes 'AC' (All Clear) and 'C' (Clear) buttons for flexible clearing options.
 - **Customizable Initial Display**: Set up a personalized starting view.
@@ -16,10 +17,10 @@
 - **Development Environment**: Android Studio
 - **Programming Language**: Java
 - **User Interface**: XML-based design for layout and style.
-- **Expression Evaluation**: Uses the `exp4j` library for efficient parsing and evaluation of mathematical expressions.
+- **Expression Evaluation**: Uses the `exp4j` library for efficient parsing and evaluation of mathematical expressions, with custom functions for advanced calculations.
 
 ### Outcome
-A robust and user-friendly calculator app that provides accurate calculations and a seamless user experience.
+A robust and user-friendly calculator app that provides accurate calculations and a seamless user experience, suitable for both basic and advanced mathematical needs.
 
 <div align="center">
   
