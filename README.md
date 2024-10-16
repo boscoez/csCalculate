@@ -18,7 +18,10 @@ Programming Language: Java
 User Interface: XML
 Expression Evaluation: Utilizes the exp4j library for efficient parsing and evaluation of mathematical expressions
 Outcome: A robust and user-friendly calculator app that provides accurate calculations and a seamless user experience.
-<div align="center">
+<div 
+    
+    
+align="center">
   
   <img ![csCalc1](https://github.com/user-attachments/assets/1bf7b2b7-1356-4061-bc8e-0c672621b2b1)/>
 
